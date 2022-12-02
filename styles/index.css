@@ -1,0 +1,65 @@
+h1{
+    color: rgb(157, 40, 230);
+}
+#testi
+{
+    color: rgb(14, 246, 153);
+}
+#information
+{
+    color: aqua;
+}
+#button:hover
+{
+    color: rgb(245, 15, 15);
+}
+.black {
+    background-color: black;
+  }
+  .silver {
+    border: 15px;
+    background-color: silver;
+  }
+  .gray {
+    background-color: gray;
+  }
+  .white {
+    background-color: rgb(128, 128, 128);
+  }
+  .maroon {
+    background-color: maroon;
+  }
+  .red {
+    background-color: red;
+  }
+  .purple {
+    background-color: purple;
+  }
+  .fuchsia {
+    background-color: fuchsia;
+  }
+  .green {
+    background-color: green;
+  }
+  .lime {
+    background-color: lime;
+    border: 10px;
+  }
+  .olive {
+    background-color: olive;
+  }
+  .yellow {
+    background-color: yellow;
+  }
+  .navy {
+    background-color: navy;
+  }
+  .blue {
+    background-color: blue;
+  }
+  .teal {
+    background-color: teal;
+  }
+  .aqua {
+    background-color: aqua;
+  }
