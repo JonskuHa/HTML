@@ -1,4 +1,12 @@
+:root{
+  --box-side-length:100px;
+  --box-margin:20px;
+  --box-border: 2px dotted;
+  --box-width: 100;
+  --box-height: 100;
+}
 h1{
+    background-color: aqua;
     color: rgb(157, 40, 230);
 }
 #testi
@@ -13,18 +21,31 @@ h1{
 {
     color: rgb(245, 15, 15);
 }
+root {
+  --main-bg-color: brown;
+}
+div {
+  background-color: aquamarine;
+}
+
+.box{
+  border: var(--box-border);
+  margin: var(--box-margin);
+  width: var(--box-width);
+  height: var(--box-height)
+}
+
 .black {
     background-color: black;
   }
   .silver {
-    border: 15px;
     background-color: silver;
   }
   .gray {
     background-color: gray;
   }
   .white {
-    background-color: rgb(128, 128, 128);
+    background-color: white;
   }
   .maroon {
     background-color: maroon;
@@ -43,7 +64,6 @@ h1{
   }
   .lime {
     background-color: lime;
-    border: 10px;
   }
   .olive {
     background-color: olive;
