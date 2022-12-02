@@ -1,0 +1,11 @@
+@media(min-width:800px){
+    .wrapper h1 {
+        font-size: 4rem;
+    }
+}
+.big{
+    columns: 3;  
+}
+.small{
+    columns: 1;
+}

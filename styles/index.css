@@ -28,11 +28,31 @@ div {
   background-color: aquamarine;
 }
 
+.box-container{
+  /* grid-template-columns: repeat(4, 50px);
+  grid-template-rows: 3fr 5fr;*/
+  background-color: aquamarine
+  display: flex;
+  flex-wrap: wrap;
+  /* display: grid; */
+}
+
+.right{
+  float: right;
+}
+
+.left{
+  float: left;
+}
+.center{
+  margin: auto;
+}
 .box{
   border: var(--box-border);
   margin: var(--box-margin);
   width: var(--box-width);
-  height: var(--box-height)
+  height: var(--box-height);
+  float: var(--box-float);
 }
 
 .black {
